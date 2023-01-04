@@ -1,0 +1,54 @@
+.heading_container
+{
+  overflow: hidden;
+
+  .porsche_heading
+  {
+    position:relative;
+    width:90%;
+    left: 5%;
+  }
+}
+
+.assets_container
+{
+  display: flex;
+  justify-content: space-between;
+  position:relative;
+  top: 5vh;
+  width:90%;
+
+  overflow: hidden;
+
+  left:5%;
+
+  .logo_container
+  {
+    display: flex;
+    align-items: center;
+    height:100%;
+    width: 20vw;
+
+    .porsche_logo
+    {
+      position:relative;
+      height: 60px;
+    }
+
+    .logo_aside
+    {
+      font-weight: 300;
+      font-size: 14px;
+      color: dimgray;
+      line-height: 21px;
+
+      span
+      {
+        background: #212223;
+        color:white;
+        padding: 2px 5px;
+        border-radius: 4px;
+      }
+    }
+  }
+}
